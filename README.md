@@ -1,2 +1,2 @@
 # epiDesenv
-Portfolio destinado ao projeto Ciecia de dados DNC
+Portfolio destinado ao projeto Ciencia de dados DNC
