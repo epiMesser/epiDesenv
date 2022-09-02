@@ -23,7 +23,8 @@ def index():
     else:
 
         if request.method == 'GET':
-            print(request.args.get('hub.verify_token'))
+            ##print('hub.verify_token', request.args.get('hub.verify_token'))
+            print('metodo', request.method)
             if request.args.get('hub.verify_token') == VERIFY_TOKEN:
                 return request.args.get('hub.challenge')
             else:
