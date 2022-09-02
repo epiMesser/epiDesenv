@@ -7,8 +7,8 @@ app = Flask(__name__)
 VERIFY_TOKEN = 'Lixo'
 
 
-@app.route('/webhook', methods=['POST', 'GET'])
-def webhook():
+@app.route('/', methods=['POST', 'GET'])
+def index():
     if request.method == 'POST':
         resposta = request.json
         try:
