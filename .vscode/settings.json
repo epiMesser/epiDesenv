@@ -1,4 +1,10 @@
 {
     "appService.defaultWebAppToDeploy": "/subscriptions/5cf01075-c769-44ff-bce6-1effc27eaf18/microsoft.web/sites/subscriptions/5cf01075-c769-44ff-bce6-1effc27eaf18/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/TesteWH",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "azureFunctions.deploySubpath": ".",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~4",
+    "debug.internalConsoleOptions": "neverOpen"
 }
